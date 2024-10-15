@@ -1,0 +1,7 @@
+
+  //HOW TO RUN CODE//
+
+- In order to run code paste "gcc -Wall -o program program.c -std=c99 -lm
+  ./program test0.csv test0.txt" into terminal window.
+
+- Ensure both test0.txt and test0.csv are included files
