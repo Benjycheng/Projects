@@ -1,7 +1,33 @@
 
   //HOW TO RUN CODE//
 
-- In order to run code paste "gcc -Wall -o program program.c -std=c99 -lm
-  ./program test0.csv test0.txt" into terminal window.
+- Compile with gcc then execute with "./program test0.csv test0.txt" in command terminal
 
-- Ensure both test0.txt and test0.csv are included files
+- Ensure both test0.txt and test0.csv are included in folder
+
+
+  //EDITING VALUES//
+
+- Data can be changed within the test0.csv file
+
+- Only one argument can be given for "a"
+
+- Only one argument can be given for "g"
+
+- Only two arguments can be given for "c"
+
+- Only two arguments can be given for "k"
+
+  //OUTPUT//
+
+Section i: Number of columns and corresponding data name
+
+Section d: Csv values in a table with data labels
+
+Section a: Average of column data as well as min and max values
+
+Section g: Graph of column data from min to max
+
+Section c: Correlating values in a column and average of values from the rows with the same correlating values
+
+Section k: Calculate tau coefficient between two columns
