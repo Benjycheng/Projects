@@ -24,10 +24,10 @@ Section i: Number of columns and corresponding data name
 
 Section d: Csv values in a table with data labels
 
-Section a: Average of column data as well as min and max values
+Section a: Average of column data from a chosen column
 
-Section g: Graph of column data from min to max
+Section g: Graph of column data from 2 columns
 
 Section c: Correlating values in a column and average of values from the rows with the same correlating values
 
-Section k: Calculate tau coefficient between two columns
+Section k: Calculate tau coefficient between 2 columns
