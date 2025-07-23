@@ -34,7 +34,7 @@ module Counter
 	
 	always @(posedge clk) begin
 		if(reset) cnt <= 1'd0;
-		if(pause) cnt <= cnt;
+		else if(pause) cnt <= cnt;
 		else if(plus && !minus) cnt <= (cnt == MAX) ? 1'd0 : (cnt + 1'd1);
 		else if(!plus && minus) cnt <= (cnt == 1'd0) ? MAX : (cnt - 1'd1);
 		else if(plus && minus) cnt <= cnt;
