@@ -26,7 +26,7 @@ Section d: Csv values displayed in a table with data labels
 
 Section a: Average of column data from a chosen column
 
-Section g: Graph of column data from 2 seleted columns
+Section g: Graph of column data from 2 selected columns
 
 Section c: Correlating values in a column and average of values from the rows with the same correlating values
 
